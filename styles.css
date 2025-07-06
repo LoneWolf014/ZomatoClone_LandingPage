@@ -99,8 +99,14 @@
     width: 65%;
 }
 
-.Search_icon{
-    columns: red;
+
+.locationicon, .searchicon{
+    padding: 5px;
+    font-size: 20px;
+    color: #8b8b8b;
+}
+.locationicon:active, .searchicon:active{
+    color: red;
 }
 
 /* when the screen size is 0-600 */
