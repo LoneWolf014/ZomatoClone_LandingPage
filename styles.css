@@ -109,6 +109,50 @@
     color: red;
 }
 
+.Container__We_Offer{
+    margin: 3rem auto;
+    width: 90%;
+}
+.Container__We_Offer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container__card{
+    border-radius: 10px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    /* border: 1px solid #e0e0e0; */
+
+    transition: all 0.2s ease-in-out;
+}
+
+.Container__card:hover{
+    transform: scale(1.1);
+}
+
+.Container__card>img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.Container__Card_Content{
+    padding: 10px;
+}
+
+.Container__Card_Content>h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Container__Card_Content>p{
+    font-size: 12px;
+}
+
 /* when the screen size is 0-600 */
 @media only screen and (max-width:640px){
     .navbar__Menu_Container .user_icon{
